@@ -1,0 +1,217 @@
+////header
+//#pragma once
+////#ifndef CLASS5_H
+//#include<string>
+//#include<iostream>
+//using namespace std;
+//#define CLASS5_H
+////#endif // !CLASS5.H
+////////////////////////////////////////////////////////////composition examples//////////////////////////////////////////////////////////////////////////
+//class Date {
+//	int day, month, year;
+//public:
+//	//Date() {}
+//	Date(int d = 1, int m = 1, int y = 1901) :day(d), month(m), year(y) {}
+//	~Date() {}
+//};
+//class Student {
+//protected:
+//	int age;
+//	Date birthDate;
+//public:
+//	Student(int anAge, Date bD);
+//	int getAge()
+//	{
+//		return age;
+//	}
+//	void setAge(int anAge)
+//	{
+//		age = anAge;
+//	}
+//
+//};
+////////////////////////////////////////////////////////////composition examples//////////////////////////////////////////////////////////////////////////
+//class Bus {
+//	int num;
+//public:
+//	Bus() {}
+//	Bus(int n) :num(n) {}
+//	~Bus() {}
+//};
+//class Engine {
+//protected:
+//	int age;
+//	Bus numBus;
+//public:
+//	Engine(int anAge, Bus bD);
+//	int getAge()
+//	{
+//		return age;
+//	}
+//	void setAge(int anAge)
+//	{
+//		age = anAge;
+//	}
+//
+//};
+////////////////////////////////////////////////////////////composition examples//////////////////////////////////////////////////////////////////////////
+//class perosn {
+//	int num;
+//public:
+//	perosn() {}
+//	perosn(int n) :num(n) {}
+//	~perosn() {}
+//};
+//class bodyparts {
+//protected:
+//	int n;
+//	perosn numperosn;
+//public:
+//	bodyparts(int nu, perosn bD);
+//	int getAge()
+//	{
+//		return n;
+//	}
+//	void setAge(int nu)
+//	{
+//		n = nu;
+//	}
+//
+//};
+////////////////////////////////////////////////////////////composition examples//////////////////////////////////////////////////////////////////////////
+//class mobile {
+//	int num;
+//public:
+//	mobile() {}
+//	mobile(int n) :num(n) {}
+//	~mobile() {}
+//};
+//class battery {
+//protected:
+//	int n;
+//	mobile nummobile;
+//public:
+//	battery(int nu, mobile bD);
+//	int getAge()
+//	{
+//		return n;
+//	}
+//	void setAge(int nu)
+//	{
+//		n = nu;
+//	}
+//
+//};
+////////////////////////////////////////////////////////////composition examples//////////////////////////////////////////////////////////////////////////
+//class fan {
+//	int num;
+//public:
+//	fan() {}
+//	fan(int n) :num(n) {}
+//	~fan() {}
+//};
+//class wings {
+//protected:
+//	int n;
+//	fan numfan;
+//public:
+//	wings(int nu, fan bD);
+//	int getAge()
+//	{
+//		return n;
+//	}
+//	void setAge(int nu)
+//	{
+//		n = nu;
+//	}
+//
+//};
+//
+/////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//////////////////////////////////////aggregation/////////////////////////////////////////////////////////////////
+//
+//class person1 {
+//	int numLegs;
+//public:
+//	person1() {}
+//	bool goodperson1() { return true; }
+//};
+//class hat {
+//private:
+//	float area;
+//	person1* person1s;
+//public:
+//	hat();
+//	person1* Getperson1(int);
+//	bool goodperson1(int);
+//};
+//
+//
+//////////////////////////////////////aggregation/////////////////////////////////////////////////////////////////
+//
+//class BUS {
+//	int whel;
+//public:
+//	BUS() {}
+//	bool goodBUS() { return true; }
+//};
+//class camera {
+//private:
+//	float area;
+//	BUS* BUSs;
+//public:
+//	camera();
+//	BUS* GetBUS(int);
+//	bool goodBUS(int);
+//};
+//////////////////////////////////////aggregation/////////////////////////////////////////////////////////////////
+//
+//class mobile1 {
+//	int cov;
+//public:
+//	mobile1() {}
+//	bool goodmobile1() { return true; }
+//};
+//class cover {
+//private:
+//	float area;
+//	mobile1* mobile1s;
+//public:
+//	cover();
+//	mobile1* Getmobile1(int);
+//	bool goodmobile1(int);
+//};
+//////////////////////////////////////aggregation/////////////////////////////////////////////////////////////////
+//
+//class books {
+//	int cov;
+//public:
+//	books() {}
+//	bool goodbooks() { return true; }
+//};
+//class rings {
+//private:
+//	float area;
+//	books* bookss;
+//public:
+//	rings();
+//	books* Getbooks(int);
+//	bool goodbooks(int);
+//};
+//////////////////////////////////////aggregation/////////////////////////////////////////////////////////////////
+//
+//class bottle {
+//	int cov;
+//public:
+//	bottle() {}
+//	bool goodbottle() { return true; }
+//};
+//class handle {
+//private:
+//	float area;
+//	bottle* bottles;
+//public:
+//	handle();
+//	bottle* Getbottle(int);
+//	bool goodbottle(int);
+//};
